@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="font" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/font" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-system-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/font" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="C:/Users/youssef/Desktop/game_tetrice/SFML-2.4.0-windows-gcc-6.1.0-mingw-32-bit/SFML-2.4.0/include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/Users/youssef/Desktop/game_tetrice/SFML-2.4.0-windows-gcc-6.1.0-mingw-32-bit/SFML-2.4.0/lib" />
+		</Linker>
+		<Unit filename="../prr/Question.h" />
+		<Unit filename="../prr/class_shape.h" />
+		<Unit filename="../prr/decalage.h" />
+		<Unit filename="../prr/intro.h" />
+		<Unit filename="../prr/levels.h" />
+		<Unit filename="../prr/menu.h" />
+		<Unit filename="../prr/options.txt" />
+		<Unit filename="../prr/questions.txt" />
+		<Unit filename="../prr/shape.h" />
+		<Unit filename="../prr/shape_decalage.h" />
+		<Unit filename="../prr/window.h" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

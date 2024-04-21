@@ -1,0 +1,2 @@
+What is the capital of France?,Paris
+What is the largest planet in our solar system?,Jupiter
